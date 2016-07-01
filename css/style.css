@@ -1,0 +1,137 @@
+
+@import "imported.css";
+
+
+* {
+
+  padding:0;
+  margin:0;
+
+}
+
+body {
+
+  margin:0 auto;
+  width:968px;
+  padding:53px;
+  font-family:Arial,sans-serif;
+  border-right: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
+
+}
+
+
+.header ul {
+
+  background-image: linear-gradient(#454444, #5c5c5c);
+  height:40px;
+  font-size:26px;
+  margin-top: 43px;
+  
+
+}
+
+.menu li {
+
+  display:inline-block;
+  
+ 
+
+}
+
+.menu li a{
+
+  color:#FFFFFF;
+  font-size:12px;
+  text-decoration: none;
+  margin:37px;
+
+}
+
+.menu li a:hover {
+ 
+ color: yellow;
+  
+
+}
+
+.menu li:hover {
+  
+ background-image: linear-gradient(#2f2f2f, #484848);
+ height:40px; 
+ border-right: 0.1px solid #838383; 
+ border-left: 0.1px solid #838383;
+
+}
+
+
+
+.sidebar {
+
+  margin-top: 41px;
+  float:left;
+  width:287px;
+  min-height:640px;
+  font-size:15px;
+
+}
+
+.sidebar li a {
+
+  margin-left:37px;
+  line-height:50px;
+  color:#000;
+  text-decoration: none;
+ 
+
+}
+
+.sidebar li {
+
+border: 1px solid #e1e1e1;
+list-style:none; 
+
+} 
+
+
+.sidebar li:hover {
+
+  background-color: lightgrey;
+  padding-left:17px;
+  font-weight: bold;
+
+}
+
+.article {
+
+  margin-top: 42px;
+  margin-left:30%;
+  text-align:center;
+ 
+} 
+
+.article img { 
+
+  border: 1px solid #e1e1e1;
+  margin-left: 15px;
+  padding: 40px 80px 60px 80px; 
+
+}
+
+
+p {
+
+  font-size:14px;
+  padding: 0 10px 0 30px;
+  margin-top:50px;
+  text-align: left;
+
+}
+
+
+
+
+
+
+
+

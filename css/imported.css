@@ -1,0 +1,46 @@
+
+.footer {
+
+   clear:both;
+   background-color:#e1e1e1;
+   height:42px;
+   font-size:12px;
+
+ }
+
+
+.footer li {
+  line-height:40px;
+  display:inline;
+  margin:35px;
+
+}
+
+.footer li a:hover {
+  color: blue;
+  border-bottom:1px solid #000; 
+
+}
+
+.footer li a:active {
+  color:red; 
+
+}
+
+.footer li a {
+
+  text-decoration: none;
+  color:#000;
+
+}
+
+
+
+.footer li:nth-child(5) {
+
+  margin-left: 330px;
+
+}
+
+
+
