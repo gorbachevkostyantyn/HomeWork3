@@ -34,7 +34,8 @@ body {
 .menu li {
 
   display:inline-block;
-  
+  border-right: 0.1px solid transparent; 
+  border-left: 0.1px solid transparent;
  
 
 }
